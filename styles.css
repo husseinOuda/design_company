@@ -1,0 +1,468 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.main-header {
+    background-blend-mode: multiply; 
+    background-size: cover; 
+    padding-bottom: 90px;
+    background-color: #655DD5;
+    color: #fceded; 
+    font-size: 18px;
+
+}
+
+.main-header {
+    background-image: url('images/header-1.jpg');
+    background-origin: padding-box;
+    background-position: bottom left;
+}
+
+.nav ul {
+    list-style: none;
+    margin-left: 33em;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+
+.nav ul ul {
+    display: none;
+    margin-left: 0em;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    width: 60px;
+    display: block;
+    padding: 6px;
+    font-size: 16px;
+    font-family: helvetica;
+    color: #ffffff;
+    margin-top: 1em;
+}
+
+.nav ul li:hover > ul {
+    display: block;
+}
+
+
+.main-nav {
+    text-align: center;
+    font-size: 1em;
+}
+
+.main-nav li {
+    padding: 0 2%; 
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.home-header-image {
+    float: left;
+    margin-left: 8em;
+    margin-top: 2em;
+}
+
+.main-paragraph {
+    text-align: left;
+    margin-left: 5em;
+    font-size: 3em;
+    color: white;
+    padding-top: 150px;
+}
+
+.main-paragraph-large {
+    font-size: 1.5em;
+}
+
+.about {
+  margin-top: 5%;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+.about figure{
+    padding: 0 300px;
+
+} 
+
+.about figure img {
+    float: left;
+    height: 200px;
+    width: 200px;
+
+} 
+
+.about figure p{
+    padding-left: 20px;
+
+}
+
+.band-name {
+    font-family: "Metal Manie"; 
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 2em;
+    border-bottom: 3px solid #D00710;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+.paragraph-about {
+    font-size: 26px;
+    text-align: left;
+    color: #555;
+    padding-left: -50px;
+
+}
+
+.video {
+  margin-top: 11%;
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: center;
+  background-color: #F8F8F8;
+}
+
+.video video{
+    padding-top: 50px;
+}
+
+.paragraph-video {
+  font-size: 20px;
+  text-align: center;
+  color: #555;
+}
+
+.services {
+  margin-top: 5%;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.paragraph-services {
+  font-size: 22px;
+  text-align: center;
+  color: #555;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.services-item {
+    margin: 30px;
+}
+
+.services-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services-section {
+    margin: 1em;
+}
+
+.services-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.em;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.services-item-image {
+    height: 250px;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+.services-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.services-item-price {
+    flex-grow: 1;
+    color: #333;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.btn-primary {
+    color: #EBEDED;
+    background-color: #D00710;
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: green;
+}
+
+.protfolio {
+  margin-top: 11%;
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: center;
+}
+
+.protfolio-section {
+    background-blend-mode: multiply; 
+    background-size: cover;
+    padding-bottom: 90px;
+    background-color: #F8F8F8;
+    color: #555;
+    font-size: 18px;
+}
+
+.protfolio-item-image {
+    height: 250px;
+}
+
+.sub ul {
+    margin: 0;
+}
+
+.sub li {
+    display: inline;
+}
+
+.sub a {
+    display: inline-block;
+    padding: .1em;
+    color: #767FBD;
+    text-decoration: none;
+}
+
+.submenu-sub {
+    text-align: center;
+    font-size: .7em;
+}
+
+.submenu-sub li {
+    padding: 0 1%;
+}
+
+.sub a:hover {
+    background-color: #767FBD;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.communiction-left {
+    width: 50%;
+    float: right;
+    float: left;
+    color: #555;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 6%;
+}
+
+.communiction-conclusion {
+  border-bottom: 1px solid #D00710;
+  padding-bottom: 1.3em;
+  margin-bottom: 1.3em;
+  display: inline-block;
+  padding-right: 0em;
+  width: 55%;
+  color: #555;
+  font-weight: bold;
+}
+
+.tour-name {
+    font-family: "Metal Manie"; 
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 3px solid #D00710;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.write-right {
+    width: 50%;
+    float: right;
+    float: left;
+    color: #555;
+    background-color: #ffffff;
+    margin-top: 3.5%;
+}
+
+.tour-to-name {
+    font-family: "Metal Manie"; 
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #000;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 3px solid #D00710;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.email-quantity {
+    margin-left: 12em;
+}
+
+.email-quantity-name {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+#email-quantity-name {
+    text-align: center;
+    font-size: 1.em;
+    margin-right: 50px;
+}
+
+#email {
+    height: 22px;
+    width: 315px;
+    border-radius: 5px;
+    border: 1px solid #D00710;
+    border-bottom: 1px solid black;
+    background-color: #F8F8F8;
+    color: #555;
+    text-align: left;
+    font-size: 1.0em;
+    align-items: center;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+}
+
+#name {
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #D00710;
+    border-bottom: 1px solid black;
+    background-color: #F8F8F8;
+    color: #555;
+    text-align: center;
+    font-size: 1.0em;
+    align-items: center;
+    margin-right: .5em;
+    padding-bottom: 10px;
+}
+
+.email-quantity-content {
+    font-size: 1.2em;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+#email-quantity-content {
+    text-align: center;
+    font-size: 1.em;
+    margin-right: 50px;
+}
+
+#textarea {
+    height: 70px;
+    width: 315px;
+    border-radius: 5px;
+    border: 1px solid #D00710;
+    border-bottom: 1px solid black;
+    background-color: #F8F8F8;
+    color: #555;
+    text-align: center;
+    font-size: 1.0em;
+    align-items: center;
+    margin-right: .5em;
+    padding-bottom: 10px;
+}
+
+.fa {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.main-footer {
+    margin-top: 44%;
+    background-color: #111111; 
+    color: #B8B8B8;
+    padding: 1em;
+    text-align: center;
+    background-blend-mode: multiply; 
+    background-size: cover; 
+    padding-bottom: 50px;
+}
+
+.conclusion a:link {
+  color: #B8B8B8;
+  text-decoration: none;
+}
+.conclusion a:visited {
+  color: #B8B8B8;
+  text-decoration: none;
+}
+.conclusion a:hover {
+  color: #111111; 
+  text-decoration: none;
+}
+.conclusion a:active {
+  color: #B8B8B8;
+  text-decoration: none;
+}
+
+.paragraph-footer {
+  text-align: center;
+  padding-bottom: 1.5em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.appendix a:link {
+    color: #B8B8B8;
+    text-decoration: none;
+}
+
+.appendix a:visited {
+    color: #B8B8B8;
+    text-decoration: none;
+}
+
+.appendix a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.appendix a:active {
+    color: #fff;
+    text-decoration: none;
+}
